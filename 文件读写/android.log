@@ -1,0 +1,115 @@
+05-27 17:02:54.542  3510 11327 I CloudAlbum[8.1.2.303]: [OperationUtil] isAutoUploadAllow pass: /DCIM/Camera
+05-27 17:02:56.331  3510 11336 I CloudAlbum[8.1.2.303]: [AlbumServiceLogic] refreshAlbum begin
+05-27 17:02:56.346  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] call sync general album: null, traceId: 04001_01_1527411776_81819207
+05-27 17:02:56.346  3510  9217 I CloudAlbum[8.1.2.303]: [SeparateTaskCallable] Execute SeparateTaskCallable TaskType:reportSyncType
+05-27 17:02:56.359  3510  9816 I CloudAlbum[8.1.2.303]: [CGStatusUtil] set sync status:910
+05-27 17:02:56.374  3510  9816 I CloudAlbum[8.1.2.303]: [FVersionQueryRequest] type: 0
+05-27 17:02:56.407  9065 10072 D Gallery2_Search: stop search servcie
+05-27 17:02:56.472  3510 11336 I CloudAlbum[8.1.2.303]: [OperationUtil] isAutoUploadAllow pass: /DCIM/Camera
+05-27 17:02:56.472  3510 11336 I CloudAlbum[8.1.2.303]: [OperationUtil] no need to limit
+05-27 17:02:56.477  3510 11336 I CloudAlbum[8.1.2.303]: [UploadPhoto] autoUploadToCloud, fileUpType: /DCIM/Camera
+05-27 17:02:56.478  3510 11336 I CloudAlbum[8.1.2.303]: [OperationUtil] no need to limit
+05-27 17:02:56.490  3510 11336 I CloudAlbum[8.1.2.303]: [UploadPhoto] autoUpload query local preFileList end!
+05-27 17:02:56.490  3510 11336 I CloudAlbum[8.1.2.303]: [UploadPhoto] execUpload
+05-27 17:02:56.491  3510 11336 I CloudAlbum[8.1.2.303]: [FileInfoOperator] query4Vo
+05-27 17:02:56.524  3510 11327 I CloudAlbum[8.1.2.303]: [OperationUtil] isAutoUploadAllow pass: /DCIM/Camera
+05-27 17:02:56.535  3510 11336 I CloudAlbum[8.1.2.303]: [UploadPhoto] preFileList length is 1
+05-27 17:02:56.554  3510 11336 I CloudAlbum[8.1.2.303]: [OperationUtil] isAutoUploadAllow pass: /Pictures/Screenshots
+05-27 17:02:56.555  3510 11336 I CloudAlbum[8.1.2.303]: [OperationUtil] no need to limit
+05-27 17:02:56.555  3510 11336 I CloudAlbum[8.1.2.303]: [UploadPhoto] autoUploadToCloud, fileUpType: /Pictures/Screenshots
+05-27 17:02:56.555  3510 11336 I CloudAlbum[8.1.2.303]: [OperationUtil] no need to limit
+05-27 17:02:56.556  3510 11336 I CloudAlbum[8.1.2.303]: [UploadPhoto] autoUpload query local preFileList end!
+05-27 17:02:56.556  3510 11336 I CloudAlbum[8.1.2.303]: [UploadPhoto] UploadPhoto autoUploadToCloud preFileList is null,upload stopped!
+05-27 17:02:56.644  3510  9816 E CloudAlbum[8.1.2.303]: [GeneralAlbumRequestOperator] getGeneralAlbumVersion code: 0, info: fversionQueryRsp query success
+05-27 17:02:56.653  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] generalFversion: 15274010075162051324276:15274010075162051324276:
+05-27 17:02:56.654  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] call fversion not change
+05-27 17:02:56.654  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] downloadThumb, thumbType: 2
+05-27 17:02:56.654  3510  9816 I CloudAlbum[8.1.2.303]: [DownloadPhoto] autoDownloadAlbumEmptyThumb, type :2,albumType :0
+05-27 17:02:56.655  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] query4VoByEmptyPath
+05-27 17:02:56.659  9065 10072 D Gallery2_Search: start search service delay
+05-27 17:02:56.666  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] downloadPhotoCover
+05-27 17:02:56.666  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoOperator] query4Vo
+05-27 17:02:56.670  3510  9905 E CloudAlbum[8.1.2.303]: [DownloadCheckCallable] downloadPhoto list is null
+05-27 17:02:56.681  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:56.682  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:56.694  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:56.694  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:56.702  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:56.702  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:56.713  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:56.714  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:56.732  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:56.732  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:56.746  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:56.746  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:56.761  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:56.761  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:56.776  3510  9816 I CloudAlbum[8.1.2.303]: [OperationUtil] no need to limit
+05-27 17:02:56.776  3510  9816 I CloudAlbum[8.1.2.303]: [CallBackMsgHandle] notifyUploadStatus
+05-27 17:02:56.777  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryAllUploadFile begin
+05-27 17:02:56.799  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryAllUploadFile pic video counts: 2, 0, 1
+05-27 17:02:56.808  3510  9816 I CloudAlbum[8.1.2.303]: [FVersionQueryRequest] type: 4
+05-27 17:02:56.996  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] recycleFversion 1527345794398-1244716405:1527345794398-1244716405
+05-27 17:02:56.996  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] downloadThumb, thumbType: 2
+05-27 17:02:56.999  3510  9816 I CloudAlbum[8.1.2.303]: [DownloadPhoto] autoDownloadAlbumEmptyThumb, type :2,albumType :1
+05-27 17:02:57.015  3510  9905 E CloudAlbum[8.1.2.303]: [DownloadCheckCallable] downloadPhoto list is null
+05-27 17:02:57.015  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoOperator] query4Vo
+05-27 17:02:57.031  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:57.032  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:57.053  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:57.054  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:57.076  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:57.076  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:57.094  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:57.095  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:57.112  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:57.112  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:57.123  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:57.123  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:57.142  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoAsyncManage] downloadPhotoCover
+05-27 17:02:57.146  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitInfoByAlbumId
+05-27 17:02:57.164  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoOperator] query4Vo
+05-27 17:02:57.197  3510  9816 E CloudAlbum[8.1.2.303]: [RecycleAsyncLogic] uniqueIds is null or empty
+05-27 17:02:57.214  3510  9816 I CloudAlbum[8.1.2.303]: [RecycleAsyncLogic] handleRestoreFile lastId：-1
+05-27 17:02:57.215  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoOperator] query4Vo
+05-27 17:02:57.234  3510  9816 I CloudAlbum[8.1.2.303]: [RecycleFileOperator] queryDeleteFileByAlbumId,albumId is:default-album-1, id is :0
+05-27 17:02:57.267  3510  9816 W CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] processDeleteFile fileList is null or empty
+05-27 17:02:57.282  3510  9816 I CloudAlbum[8.1.2.303]: [RecycleFileOperator] queryDeleteFileByAlbumId,albumId is:default-album-2, id is :0
+05-27 17:02:57.315  3510  9816 W CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] processDeleteFile fileList is null or empty
+05-27 17:02:57.335  3510  9816 I CloudAlbum[8.1.2.303]: [RecycleFileOperator] queryDeleteFileByAlbumId,albumId is:default-album-200--1640216291-1518083472900, id is :0
+05-27 17:02:57.361  3510  9816 W CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] processDeleteFile fileList is null or empty
+05-27 17:02:57.373  3510  9816 I CloudAlbum[8.1.2.303]: [RecycleFileOperator] queryDeleteFileByAlbumId,albumId is:default-album-200--1862546177-1525086726252, id is :0
+05-27 17:02:57.400  3510  9816 W CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] processDeleteFile fileList is null or empty
+05-27 17:02:57.412  3510  9816 I CloudAlbum[8.1.2.303]: [RecycleFileOperator] queryDeleteFileByAlbumId,albumId is:default-album-200--296273680-1494985246511, id is :0
+05-27 17:02:57.432  3510  9816 W CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] processDeleteFile fileList is null or empty
+05-27 17:02:57.446  3510  9816 I CloudAlbum[8.1.2.303]: [RecycleFileOperator] queryDeleteFileByAlbumId,albumId is:default-album-200-270160717-1515511048357, id is :0
+05-27 17:02:57.460  3510  9816 W CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] processDeleteFile fileList is null or empty
+05-27 17:02:57.490  3510  9816 I CloudAlbum[8.1.2.303]: [RecycleFileOperator] queryDeleteFileByAlbumId,albumId is:default-album-200-500972808-1515511048357, id is :0
+05-27 17:02:57.534  3510  9816 W CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] processDeleteFile fileList is null or empty
+05-27 17:02:57.570  3510  9816 W CloudAlbum[8.1.2.303]: [RecycleFileOperator] queryRecoverFile no record
+05-27 17:02:57.579  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] modifyGeneralAlbum
+05-27 17:02:57.581  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoOperator] queryByAlbumName
+05-27 17:02:57.603  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoAsyncCallable] modifyGeneralFile
+05-27 17:02:57.604  3510  9816 I CloudAlbum[8.1.2.303]: [AlbumInfoOperator] query4Vo
+05-27 17:02:57.613  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryRenameFileByAlbumId begin
+05-27 17:02:57.636  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryRenameFileByAlbumId begin
+05-27 17:02:57.752  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryRenameFileByAlbumId begin
+05-27 17:02:57.809  3510  9816 I CloudAlbum[8.1.2.303]: [AutoDownloadLcdCallable] not limit, downloadLCD
+05-27 17:02:57.810  3510  9816 I CloudAlbum[8.1.2.303]: [DownloadPhoto] autoDownloadLcdLimit count: 2000
+05-27 17:02:57.811  3510  9816 I CloudAlbum[8.1.2.303]: [FileInfoOperator] queryLimitFileInfo
+05-27 17:02:57.845  3510  9816 I CloudAlbum[8.1.2.303]: [DownloadPhoto] autoDownloadGeneralLcdLimit fileList is null or empty
+05-27 17:02:57.872  3510  9816 I CloudAlbum[8.1.2.303]: [RecycleFileOperator] queryLimitFileInfo count is: 1
+05-27 17:02:57.873  3510  9816 I CloudAlbum[8.1.2.303]: [DownloadPhoto] autoDownloadRecycleLcdLimit recycleFileList is null or empty
+05-27 17:02:57.873  3510  9816 I CloudAlbum[8.1.2.303]: [DownloadPhoto] autoDownloadShareEmptyThumb, type1
+05-27 17:02:57.877  3510  9905 E CloudAlbum[8.1.2.303]: [DownloadCheckCallable] downloadPhoto list is null
+05-27 17:02:58.806  3510 11327 I CloudAlbum[8.1.2.303]: [OperationUtil] isAutoUploadAllow pass: /DCIM/Camera
+05-27 17:02:59.716  9437 11367 D Gallery2_Search: wait to Join thread.
+05-27 17:02:59.716  9437 11367 D Gallery2_Search: Join thread done. cost time: 0
+05-27 17:02:59.717  9437 11367 W Gallery2_Search: locked false
+05-27 17:02:59.786  9437 11367 D Gallery2_Search: clear invalid index. commit 0
+05-27 17:02:59.802  9437 11367 D Gallery2_Search: clear invalid index, count: 0
+05-27 17:02:59.916  9437 11367 D Gallery2_Search: upgrade  0 item for null 
+05-27 17:03:00.015  9437 11367 D Gallery2_Search: localized. sleep 2500
+05-27 17:03:00.513  3510 11327 I CloudAlbum[8.1.2.303]: [OperationUtil] isAutoUploadAllow pass: /DCIM/Camera
+05-27 17:03:02.785  9437 11367 D Gallery2_Search: localized. sleep 2500
+05-27 17:03:05.576  9437 11367 D Gallery2_Search: localized. sleep 2500
